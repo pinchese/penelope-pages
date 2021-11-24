@@ -33,8 +33,9 @@ div[id=link-header] span {
 
 div[id=links] {
     letter-spacing: 4px;
-    font-size: large;
+    font-size: 12px;
     font-family: monospace;
+    text-decoration: none;
 }
 
 div[id=links] span[id=mstdn] {
