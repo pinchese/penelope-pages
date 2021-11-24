@@ -4,10 +4,7 @@ body[id=home] {
 }
 
 div[id=username] {
-    padding: 25px
-}
-
-div[id=username] span {
+    padding: 25px;
     font-size: 50px;
     font-style: italic;
     margin-top: 25px;
