@@ -1,7 +1,19 @@
 body[id=home] {
     background: black;
     color: white;
-    margin-top: 200px;
+}
+
+div[id=username] {
+    padding: 25px
+}
+
+div[id=username] span {
+    font-size: 50px;
+    font-style: italic;
+    margin-top: 25px;
+    text-align: center;
+    color: white;
+    letter-spacing: 4px;
 }
 
 input[type=text] {
@@ -15,7 +27,9 @@ input[type=text] {
     font-family: monospace;
     border: 0;
     outline: 0;
+    margin-top: 100px;
 }
+
 input[type=text]:focus {
     outline:none!important;
 }
@@ -24,7 +38,7 @@ div[id=link-header] {
     width: 50%;
     text-align: center;
     margin-left: 25%;
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 div[id=link-header] span {
@@ -35,6 +49,7 @@ div[id=links] {
     letter-spacing: 3px;
     font-size: 20px;
     font-family: monospace;
+    text-align: center;
 }
 
 div[id=links] span[id=mstdn] {
