@@ -1,1 +1,1 @@
-website for my online presence
+website and portfolio for me and my personal projects
