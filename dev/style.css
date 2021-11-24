@@ -1,8 +1,6 @@
 body[id=home] {
     background: black;
     color: white;
-    font-smooth: never;
-    -webkit-font-smoothing: none;
 }
 
 div[id=username] {
