@@ -28,14 +28,14 @@
                 outline:none!important;
             }
 
-            div[id=header] {
+            div[id=link-header] {
                 width: 50%;
                 text-align: center;
                 letter-spacing: 5px;
                 margin-left: 25%;
             }
 
-            div[id=header] h3 span {
+            div[id=link-header] h3 span {
                 background-color: crimson;
             }
         </style>
@@ -48,8 +48,14 @@
             document.getElementById('textInput').value = 'this website is under construction...';
         </script>
 
-        <div id="header">
+        <div id="link-header">
             <h3><span>in the meantime, check out these links</span></h3>
+            
+            <div id="links">
+                <a href="https://social.linux.pizza/web/@pinchese">mastodon</a> | 
+                <a href="https://www.youtube.com/channel/UCRdT9WQV7TIiYdbwsnSf0ZQ">youtube</a> | 
+                <a href="https://mozzi.bandcamp.com/">bandcamp</a>
+            </div>
         </div>
     </body>
 </html>
