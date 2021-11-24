@@ -3,7 +3,7 @@ body[id=home] {
     color: white;
 }
 
-div[id=username] {
+a[id=username] {
     padding: 25px;
     font-size: 50px;
     font-style: italic;
