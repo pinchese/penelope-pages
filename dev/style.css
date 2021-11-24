@@ -35,55 +35,36 @@ div[id=links] {
     letter-spacing: 2px;
     font-size: 20px;
     font-family: monospace;
+    transition: .5s;
+    text-decoration: none;
 }
 
 div[id=links] span[id=mstdn] {
     background-color: dodgerblue;
     color:white;
-    text-decoration: none;
-    transition: .5s;
 }
 
 div[id=links] span[id=mstdn]:hover {
     background-color: white;
     color: black;
-    transition: .5s;
-}
-
-div[id=links] span[id=mstdn]:visited {
-    text-decoration: none;
 }
 
 div[id=links] span[id=yt] {
     background-color: crimson;
     color:white;
-    text-decoration: none;
-    transition: .5s;
 }
 
 div[id=links] span[id=yt]:hover {
     background-color: white;
     color: black;
-    transition: .5s;
-}
-
-div[id=links] span[id=yt]:visited {
-    text-decoration: none;
 }
 
 div[id=links] span[id=bc] {
     background-color: darkcyan;
     color:white;
-    text-decoration: none;
-    transition: .5s;
 }
 
 div[id=links] span[id=bc]:hover {
     background-color: white;
     color: black;
-    transition: .5s;
-}
-
-div[id=links] span[id=bc]:visited {
-    text-decoration: none;
 }
