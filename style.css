@@ -1,0 +1,100 @@
+body[id=home] {
+    background: black;
+    color: white;
+}
+
+div[id=username] {
+    text-align: center;
+    padding: 25px;
+    margin-top: 34px;
+}
+
+a[id=username-text] {
+    font-size: 50px;
+    font-style: italic;
+    color: white;
+    letter-spacing: 4px;
+}
+
+input[type=text] {
+    width: 99%;
+    padding: 10px;
+    height: 100px;
+    text-align: center;
+    font-size: 75px;
+    color: white;
+    background-color: blue;
+    font-family: monospace;
+    border: 0;
+    outline: 0;
+    margin-top: 50px;
+}
+
+input[type=text]:focus {
+    outline:none!important;
+}
+
+div[id=link-header] {
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    margin-top: 60px;
+}
+
+div[id=link-header] span {
+    letter-spacing: 5px;
+}
+
+div[id=links] {
+    letter-spacing: 3px;
+    font-size: 20px;
+    font-family: monospace;
+    text-align: center;
+}
+
+div[id=links] span[id=mstdn] {
+    background-color: dodgerblue;
+    color:white;
+    transition: .5s;
+}
+
+div[id=links] span[id=mstdn]:hover {
+    background-color: white;
+    color: black;
+    transition: .5s;
+}
+
+div[id=links] span[id=yt] {
+    background-color: crimson;
+    color:white;
+    transition: .5s;
+}
+
+div[id=links] span[id=yt]:hover {
+    background-color: white;
+    color: black;
+    transition: .5s;
+}
+
+div[id=links] span[id=bc] {
+    background-color: darkcyan;
+    color:white;
+    transition: .5s;
+}
+
+div[id=links] span[id=bc]:hover {
+    background-color: white;
+    color: black;
+    transition: .5s;
+}
+
+div[id=footer] {
+    padding: 15px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: darkgray;
+    text-align: center;
+    background-color: black;
+}
