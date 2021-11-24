@@ -1,0 +1,47 @@
+body[id=home] {
+    background: black;
+    color: white;
+    margin-top: 200px;
+}
+
+input[type=text] {
+    width: 99%;
+    padding: 10px;
+    height: 100px;
+    text-align: center;
+    font-size: 75px;
+    color: white;
+    background-color: blue;
+    font-family: monospace;
+    border: 0;
+    outline: 0;
+}
+input[type=text]:focus {
+    outline:none!important;
+}
+
+div[id=link-header] {
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+}
+
+div[id=link-header] span {
+    letter-spacing: 5px;
+}
+
+div[id=links] {
+    
+}
+
+div[id=links] span[id=mstdn] {
+    
+}
+
+div[id=links] span[id=yt] {
+    
+}
+
+div[id=links] span[id=bc] {
+    
+}
