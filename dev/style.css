@@ -1,6 +1,8 @@
 body[id=home] {
     background: black;
     color: white;
+    font-smooth: never;
+    -webkit-font-smoothing: none;
 }
 
 div[id=username] {
@@ -89,6 +91,7 @@ div[id=links] span[id=bc]:hover {
 }
 
 div[id=footer] {
+    padding: 15px;
     position: fixed;
     left: 0;
     bottom: 0;
