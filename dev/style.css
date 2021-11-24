@@ -6,7 +6,7 @@ body[id=home] {
 div[id=username] {
     text-align: center;
     padding: 25px;
-    margin-top: 100px;
+    margin-top: 34px;
 }
 
 a[id=username-text] {
@@ -38,7 +38,7 @@ div[id=link-header] {
     width: 50%;
     text-align: center;
     margin-left: 25%;
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 div[id=link-header] span {
@@ -86,4 +86,13 @@ div[id=links] span[id=bc]:hover {
     background-color: white;
     color: black;
     transition: .5s;
+}
+
+div[id=footer] {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: darkgray;
+    text-align: center;
 }
