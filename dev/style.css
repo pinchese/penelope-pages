@@ -32,7 +32,7 @@ div[id=link-header] span {
 }
 
 div[id=links] {
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     font-size: 20px;
     font-family: monospace;
 }
@@ -46,6 +46,7 @@ div[id=links] span[id=mstdn] {
 div[id=links] span[id=mstdn]:hover {
     background-color: white;
     color: black;
+    transition: .5s;
 }
 
 div[id=links] span[id=yt] {
@@ -57,6 +58,7 @@ div[id=links] span[id=yt] {
 div[id=links] span[id=yt]:hover {
     background-color: white;
     color: black;
+    transition: .5s;
 }
 
 div[id=links] span[id=bc] {
@@ -68,4 +70,5 @@ div[id=links] span[id=bc] {
 div[id=links] span[id=bc]:hover {
     background-color: white;
     color: black;
+    transition: .5s;
 }
