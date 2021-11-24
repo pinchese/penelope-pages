@@ -37,37 +37,38 @@ div[id=links] {
     font-family: monospace;
 }
 
-div[id=links] span a {
-    transition: .5s;
-    text-decoration: none;
-}
-
 div[id=links] span[id=mstdn] {
     background-color: dodgerblue;
     color:white;
+    transition: .5s;
 }
 
 div[id=links] span[id=mstdn]:hover {
     background-color: white;
     color: black;
+    transition: .5s;
 }
 
 div[id=links] span[id=yt] {
     background-color: crimson;
     color:white;
+    transition: .5s;
 }
 
 div[id=links] span[id=yt]:hover {
     background-color: white;
     color: black;
+    transition: .5s;
 }
 
 div[id=links] span[id=bc] {
     background-color: darkcyan;
     color:white;
+    transition: .5s;
 }
 
 div[id=links] span[id=bc]:hover {
     background-color: white;
     color: black;
+    transition: .5s;
 }
