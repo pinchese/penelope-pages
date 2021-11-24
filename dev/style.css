@@ -3,12 +3,15 @@ body[id=home] {
     color: white;
 }
 
-a[id=username] {
+div[id=username] {
+    text-align: center;
     padding: 25px;
+    margin-top: 100px;
+}
+
+a[id=username-text] {
     font-size: 50px;
     font-style: italic;
-    margin-top: 100px;
-    text-align: center;
     color: white;
     letter-spacing: 4px;
 }
