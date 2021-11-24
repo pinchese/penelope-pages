@@ -1,8 +1,8 @@
-body {
+.content {
     background-color: black;
     color: white;
-    width: 50%;
-    left: 50%;
+    max-width: 50vw;
+    margin: auto;
 }
 
 h1 {
