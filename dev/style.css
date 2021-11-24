@@ -35,6 +35,9 @@ div[id=links] {
     letter-spacing: 2px;
     font-size: 20px;
     font-family: monospace;
+}
+
+div[id=links] span a {
     transition: .5s;
     text-decoration: none;
 }
