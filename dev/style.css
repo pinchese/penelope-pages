@@ -24,7 +24,7 @@ div[id=link-header] {
     width: 50%;
     text-align: center;
     margin-left: 25%;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 div[id=link-header] span {
@@ -33,14 +33,14 @@ div[id=link-header] span {
 
 div[id=links] {
     letter-spacing: 4px;
-    font-size: 12px;
+    font-size: 20px;
     font-family: monospace;
-    text-decoration: none;
 }
 
 div[id=links] span[id=mstdn] {
     background-color: dodgerblue;
     color:white;
+    text-decoration: none;
 }
 
 div[id=links] span[id=mstdn]:hover {
@@ -51,6 +51,7 @@ div[id=links] span[id=mstdn]:hover {
 div[id=links] span[id=yt] {
     background-color: crimson;
     color:white;
+    text-decoration: none;
 }
 
 div[id=links] span[id=yt]:hover {
@@ -61,6 +62,7 @@ div[id=links] span[id=yt]:hover {
 div[id=links] span[id=bc] {
     background-color: darkcyan;
     color:white;
+    text-decoration: none;
 }
 
 div[id=links] span[id=bc]:hover {
