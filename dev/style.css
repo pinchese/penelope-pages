@@ -98,3 +98,11 @@ div[id=footer] {
     text-align: center;
     background-color: black;
 }
+
+div[id=footer] span {
+    background-color: darkblue;
+}
+
+div[id=footer] span a {
+    background-color: blue;
+}
