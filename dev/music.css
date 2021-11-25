@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+}
+
+div {
+    max-width: 100vw;
+    margin: auto;
+    margin-top: 11vw;
+    text-align: justify;
+    font-size: 7vh;
+    font: italic;
+    font-family: monospace;
+}
+
+div h1 {
+    color: gray;
+}
+
+div h1 a {
+    color: white;
+    background-color: darkcyan;
+}
