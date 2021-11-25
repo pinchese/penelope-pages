@@ -3,5 +3,5 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function changeText() {
-    document.getElementById('textInput').value = 'this website is under construction...';
+    document.getElementById('textInput').value = 'it\'s raining furiously outside. now more than ever.';
 }
