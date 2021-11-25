@@ -4,8 +4,9 @@ body {
 
 .content {
     color: white;
-    max-width: 50vw;
+    max-width: 80vw;
     margin: auto;
+    font-family: monospace;
 }
 
 h1 {
@@ -13,5 +14,5 @@ h1 {
 }
 
 p {
-    background-color: gray;
+    background-color: #222222;
 }

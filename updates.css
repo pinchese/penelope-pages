@@ -6,13 +6,14 @@ body {
     color: white;
     max-width: 80vw;
     margin: auto;
-    font-family: monospace;
 }
 
 h1 {
     background-color: blue;
+    font-family: monospace;
 }
 
 p {
-    background-color: #222222
+    background-color: #222222;
+    font-family: monospace;
 }
