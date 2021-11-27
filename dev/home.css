@@ -1,39 +1,57 @@
-body[id=home] {
+:root {
+    font-family: monospace;
+}
+
+body {
     background: black;
     color: white;
 }
 
-div[id=sitenav] {
-    padding: 15px;
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
+header {
+    color: darkgray;
     text-align: center;
+    background-color: black;
+    padding: 15px;
+}
+
+#sitenav ul {
+    list-style: none;
+    display: inline;
     font-size: 24px;
-    font-family: monospace;
-    margin-top: 40px;
+    letter-spacing: 2px;
+    padding: 0;
 }
 
-div[id=sitenav] a {
-    width: 50px;
-    margin: 50px;
-    background-color: gray;
-    letter-spacing: 3px;
+#sitenav li {
+    display: inline-flex;
+    background-color: #111;
+    transition: .1s;
+    padding-inline-start: 2px;
 }
 
-div[id=sitenav] a span {
-    color: black;
-    transition: .5s;
+#sitenav li:hover {
+    background-color: #555;
 }
 
-div[id=sitenav] a span:hover {
-    background-color: blue;
-    transition: .5s;
+#sitenav li a {
+    color: deeppink;
 }
 
-input[type=text] {
-    width: 99%;
+#abt-me {
+    text-align: justify;
+    font-size: 2vw;
+    max-width: 50vw;
+    margin: auto;
+}
+
+hr {
+    border: 0;
+    border-top: 2px solid #222;
+    max-width: 50vw;
+}
+
+/* input[type=text] {
+    width: 100vw;
     padding: 10px;
     height: 100px;
     text-align: center;
@@ -43,7 +61,6 @@ input[type=text] {
     font-family: monospace;
     border: 0;
     outline: 0;
-    margin-top: 135px;
 }
 
 input[type=text]:focus {
@@ -122,9 +139,40 @@ div[id=links] span[id=bc]:hover {
     background-color: white;
     color: black;
     transition: .5s;
+} */
+
+#follow-nag {
+    text-align: center;
+    font-size: 2vw;
+    margin: 0;
 }
 
-div[id=footer] {
+#navnest {
+    color: darkgray;
+    text-align: center;
+    background-color: black;
+    padding: 0px;
+    font-size: 2vw;
+}
+
+#sitelinks ul {
+    padding: 0px;
+    list-style: none;
+}
+
+#sitelinks li {
+    display: inline-block;
+}
+
+#sitelinks li:hover {
+    background-color: #555;
+}
+
+#sitelinks li a {
+    color: deeppink;
+}
+
+/* #footer {
     padding: 15px;
     position: fixed;
     left: 0;
@@ -133,4 +181,33 @@ div[id=footer] {
     color: darkgray;
     text-align: center;
     background-color: black;
+} */
+
+footer {
+    color: darkgray;
+    text-align: center;
+    background-color: black;
+    bottom: 0;
+    position: sticky;
+    font-size: 12px;
+}
+
+footer a {
+    text-decoration: none;
+    color: deeppink;
+}
+
+@media (max-width: 630px) {
+    #abt-me {
+        font-size: 3vw !important;
+        max-width: 70vw !important;
+    }
+
+    #follow-nag {
+        font-size: 3vw !important;
+    }
+    
+    #sitenav ul {
+        font-size: 15px !important;
+    }
 }
