@@ -1,3 +1,163 @@
+:root {
+    font-family: monospace;
+    --dark-pink: #dc1467;
+    --transition-speed: 0.5s;
+}
+
+/* header breaks at x1480 */
+
+body {
+    background-color: #180213;
+    color: white;
+    margin: 0;
+}
+
 header {
-    
+    overflow: hidden;
+    background-color: #50082a;
+}
+
+/* #header-buttons {
+    text-align: center;
+    display: flex;
+}
+
+#name-and-nav {
+    display: flex;
+}
+
+#username {
+    margin: 0;
+}
+
+header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+}
+
+header ul li {
+    margin-right: 16px;
+}
+
+.social {
+    width: 24px;
+    height: 24px;
+} */
+
+#header-content {
+    font-size: 1.5rem;
+    color: var(--dark-pink);
+    letter-spacing: .2rem;
+}
+
+.head-column {
+    float: left;
+    width: 33vw;
+    text-align: center;
+}
+
+.username a {
+    text-decoration: none;
+    color: var(--dark-pink);
+    transition: var(--transition-speed);
+}
+
+.username a:hover {
+    background-color: var(--dark-pink);
+    color: #500050
+}
+
+#header-content:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.head-column ul {
+    list-style: none;
+    display: inline-flex;
+}
+
+.head-column li {
+    padding: 0 15px;
+}
+
+.nav-link {
+    background-color: transparent;
+    transition: var(--transition-speed);
+    color: var(--dark-pink);
+}
+
+.nav-link:hover a {
+    background-color: var(--dark-pink);
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: var(--dark-pink);
+    transition: var(--transition-speed);
+}
+
+.nav-link:hover a {
+    text-decoration: none;
+    color: #500050;
+}
+
+.page-column {
+    float: left;
+    width: 33vw;
+    text-align: center;
+}
+
+#page-content:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.page-column ul {
+    list-style: none;
+    display: inline-flex;
+}
+
+.page-column li {
+    padding: 0 15px;
+}
+
+#greeting {
+    text-align: center;
+    letter-spacing: .2rem;
+    color: var(--dark-pink);
+}
+
+.header1 {
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+.header2 {
+    font-size: 1.4rem;
+    margin-top: 4px;
+}
+
+#greeting .header2 span {
+    background-color: var(--dark-pink);
+    transition: var(--transition-speed);
+}
+
+#greeting .header2 span:hover {
+    background-color: white;
+}
+
+#greeting .header2 span a {
+    text-decoration: none;
+    color: white;
+    transition: var(--transition-speed);
+}
+
+#greeting .header2 span a:hover {
+    text-decoration: underline;
+    color: black;
 }
