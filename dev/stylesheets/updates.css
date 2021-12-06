@@ -1,5 +1,14 @@
+:root {
+    font-family: monospace;
+    --hot-pink: #dc1467;
+    --deep-purple: #500050;
+    --background-secondary: #50082a;
+    --background-primary: #180213;
+    --transition-speed: 0.5s;
+}
+
 body {
-    background-color: #020004;
+    background-color: var(--background-primary);
     max-width: 800px;
     margin: auto;
     font-family: monospace;
@@ -12,23 +21,23 @@ body {
 }
 
 #back-button a {
-    background: #121114;
+    background: var(--background-secondary);
     text-decoration: none;
-    color: deeppink;
+    color: var(--hot-pink);
     transition: .1s;
 }
 
 #back-button a:hover {
-    background: hsl(328, 86%, 10%);
+    background: var(--hot-pink);
     text-decoration: none;
-    color: deeppink;
+    color: var(--deep-purple);
 }
 
 .content h1 {
-    background-color: hsl(328, 100%, 50%);
+    background-color: var(--hot-pink);
     color: black;
 }
 
 .content p {
-    background-color: #161018;
+    background-color: var(--background-secondary);
 }

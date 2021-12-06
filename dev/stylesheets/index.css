@@ -1,20 +1,23 @@
 :root {
     font-family: monospace;
-    --dark-pink: #dc1467;
+    --hot-pink: #dc1467;
+    --deep-purple: #500050;
+    --background-secondary: #50082a;
+    --background-primary: #180213;
     --transition-speed: 0.5s;
 }
 
 /* header breaks at x1480 */
 
 body {
-    background-color: #180213;
+    background-color: var(--background-primary);
     color: white;
     margin: 0;
 }
 
 header {
     overflow: hidden;
-    background-color: #50082a;
+    background-color: var(--background-secondary);
 }
 
 /* #header-buttons {
@@ -48,7 +51,7 @@ header ul li {
 
 #header-content {
     font-size: 1.5rem;
-    color: var(--dark-pink);
+    color: var(--hot-pink);
     letter-spacing: .2rem;
 }
 
@@ -60,13 +63,13 @@ header ul li {
 
 .username a {
     text-decoration: none;
-    color: var(--dark-pink);
+    color: var(--hot-pink);
     transition: var(--transition-speed);
 }
 
 .username a:hover {
-    background-color: var(--dark-pink);
-    color: #500050
+    background-color: var(--hot-pink);
+    color: var(--deep-purple)
 }
 
 #header-content:after {
@@ -87,54 +90,40 @@ header ul li {
 .nav-link {
     background-color: transparent;
     transition: var(--transition-speed);
-    color: var(--dark-pink);
+    color: var(--hot-pink);
 }
 
 .nav-link:hover a {
-    background-color: var(--dark-pink);
+    background-color: var(--hot-pink);
 }
 
 .nav-link a {
     text-decoration: none;
-    color: var(--dark-pink);
+    color: var(--hot-pink);
     transition: var(--transition-speed);
 }
 
 .nav-link:hover a {
     text-decoration: none;
-    color: #500050;
+    color: var(--deep-purple);
 }
 
-.page-column {
-    float: left;
-    width: 33vw;
-    text-align: center;
-}
-
-#page-content:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.page-column ul {
-    list-style: none;
-    display: inline-flex;
-}
-
-.page-column li {
-    padding: 0 15px;
-}
 
 #greeting {
-    text-align: center;
+    text-align: left;
     letter-spacing: .2rem;
-    color: var(--dark-pink);
+    color: var(--hot-pink);
+    margin-top: 25vh;
+    margin-left: 10vw;
 }
 
 .header1 {
     font-size: 2rem;
     margin-bottom: 0;
+}
+
+#greeting .header1 {
+    font-size: 3rem;
 }
 
 .header2 {
@@ -143,21 +132,29 @@ header ul li {
 }
 
 #greeting .header2 span {
-    background-color: var(--dark-pink);
+    background-color: var(--background-secondary);
     transition: var(--transition-speed);
 }
 
 #greeting .header2 span:hover {
-    background-color: white;
+    background-color: var(--hot-pink);
 }
 
 #greeting .header2 span a {
     text-decoration: none;
-    color: white;
+    color: var(--hot-pink);
     transition: var(--transition-speed);
 }
 
 #greeting .header2 span a:hover {
     text-decoration: underline;
-    color: black;
+    color: var(--deep-purple);
+}
+
+#description {
+    text-align: right;
+    margin-top: 15vh;
+    margin-right: 10vw;
+    font-size: 2rem;
+    color: var(--hot-pink);
 }
