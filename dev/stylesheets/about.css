@@ -16,49 +16,37 @@ body {
     color: var(--hot-pink);
     max-width: 860px;
     margin: auto;
+    font-size: 2rem;
 }
 
 #header-content {
     float: left;
 }
 
-#back-button {
-    margin-top: 10px;
-}
-
-#back-button a {
-    text-decoration: none;
-    font-size: 2rem;
-    background-color: var(--background-secondary);
+a {
     color: var(--hot-pink);
+    background-color: var(--background-secondary);
+    text-decoration: none;
     transition: var(--transition-speed);
 }
 
-#back-button a:hover {
+a:hover {
     color: var(--deep-purple);
     background-color: var(--hot-pink);
 }
 
-.q-a {
-    font-size: 2rem;
+#page-title {
+    text-align: left;
 }
 
-.q-a h2 {
+#sub-title {
+    font-size: 5rem;
+}
+
+#sub-title {
     text-align: right;
 }
 
-.q-a p {
+.description {
     text-align: justify;
-}
-
-.q-a a {
-    text-decoration: none;
-    background-color: var(--background-secondary);
-    color: var(--hot-pink);
-    transition: var(--transition-speed);
-}
-
-.q-a a:hover {
-    color: var(--deep-purple);
-    background-color: var(--hot-pink);
 }

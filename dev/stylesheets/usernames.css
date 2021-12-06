@@ -1,0 +1,35 @@
+:root {
+    font-family: monospace;
+    --hot-pink: #dc1467;
+    --deep-purple: #500050;
+    --background-secondary: #50082a;
+    --background-primary: #180213;
+    --transition-speed: 0.5s;
+}
+
+::selection {
+    background-color: var(--deep-purple);
+}
+
+body {
+    background-color: var(--background-primary);
+    color: var(--hot-pink);
+    text-align: center;
+}
+
+h1 {
+    font-size: 8rem;
+}
+
+a {
+    color: var(--hot-pink);
+    background-color: var(--background-secondary);
+    text-decoration: none;
+    transition: var(--transition-speed);
+    font-size: 2rem;
+}
+
+a:hover {
+    color: var(--deep-purple);
+    background-color: var(--hot-pink);
+}
