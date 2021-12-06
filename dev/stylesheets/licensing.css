@@ -1,4 +1,21 @@
 :root {
     font-family: monospace;
+    --hot-pink: #dc1467;
+    --deep-purple: #500050;
+    --background-secondary: #50082a;
+    --background-primary: #180213;
+    --transition-speed: 0.5s;
 }
 
+body {
+    background-color: var(--background-primary);
+    color: white;
+    max-width: 800px;
+    margin: auto;
+}
+
+#header-content {
+    list-style: none;
+    display: inline-flex;
+    padding: 0;
+}
