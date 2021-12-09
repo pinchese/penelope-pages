@@ -17,8 +17,12 @@ body {
     background-color: var(--background-primary);
     color: white;
     margin: 0;
-    background: url(../assets/i-literally-dont-know-this-song.png) no-repeat 0, 0 var(--background-primary);
+    background: url(../assets/i-literally-dont-know-this-song.png) var(--background-primary);
     background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 header {

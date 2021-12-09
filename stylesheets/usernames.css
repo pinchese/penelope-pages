@@ -17,10 +17,6 @@ body {
     text-align: center;
 }
 
-h1 {
-    font-size: 8rem;
-}
-
 a {
     color: var(--hot-pink);
     background-color: var(--background-secondary);
@@ -32,4 +28,31 @@ a {
 a:hover {
     color: var(--deep-purple);
     background-color: var(--hot-pink);
+}
+
+#return-btn {
+    margin-top: 8rem;
+}
+
+#namelist {
+    max-width: 70vw;
+    margin: auto;
+    text-align: justify;
+}
+
+#title {
+    font-size: 6rem;
+    font-weight: bold;
+}
+
+#subtitle {
+    text-align: center;
+}
+
+#names {
+    font-size: 2rem;
+}
+
+#names span {
+    font-size: 1rem;
 }
