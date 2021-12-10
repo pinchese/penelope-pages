@@ -2,6 +2,7 @@
     font-family: monospace;
     --hot-pink: #dc1467;
     --deep-purple: #500050;
+    --background-tertiary: #6d0b39;
     --background-secondary: #50082a;
     --background-primary: #180213;
     --transition-speed: 0.5s;
@@ -191,4 +192,92 @@ footer {
 
  #bgsrc a:hover {
     text-decoration: underline;
+}
+
+#mobile-header {
+    display: none;
+}
+
+#dropdown-nav {
+    display: none;
+    text-align: right;
+    position: fixed;
+    width: 100vw;
+    letter-spacing: 1rem;
+    font-size: 2rem;
+    opacity: 80%;
+    backdrop-filter: blur(5px);
+}
+
+#dropdown-nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+#dropdown-nav ul li {
+    padding: 1rem;
+    background-color: var(--background-tertiary);
+    transition: var(--transition-speed);
+}
+
+#dropdown-nav ul li:nth-child(even) {
+    background-color: var(--background-secondary);
+}
+
+#dropdown-nav ul li:hover {
+    background-color: var(--hot-pink);
+}
+
+#dropdown-nav ul li:hover > a {
+    color: var(--deep-purple);
+}
+
+#dropdown-nav ul li a {
+    text-decoration: none;
+    color: var(--hot-pink);
+    transition: var(--transition-speed);
+}
+
+@media screen and (max-width: 1480px){
+    #header-content {
+        display: none;
+    }
+
+    #mobile-header {
+        display: flex;
+        font-size: 1.5rem;
+        display: initial;
+    }
+
+    #mobile-header .username {
+        margin-left: 2rem;
+        float: left;
+    }
+
+    #dropbtn {
+        float: right;
+        background-color: var(--background-tertiary);
+        border: none;
+        color: var(--hot-pink);
+        padding: 1px 64px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 4rem;
+        transition: var(--transition-speed);
+    }
+
+    #dropbtn:hover {
+        background-color: var(--hot-pink);
+        color: var(--deep-purple);
+    }
+
+    #dropbtn:active {
+        background-color: var(--background-secondary);
+        color: var(--hot-pink);
+        transition: 0;
+    }
+
+    #dropdown-nav ul {
+        list-style: none;
+    }
 }
