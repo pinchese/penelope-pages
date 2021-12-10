@@ -31,6 +31,7 @@ header {
     background-color: var(--background-secondary);
     opacity: 80%;
     backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
 }
 
 /* #header-buttons {
@@ -176,7 +177,8 @@ footer {
     height:25px;   /* Height of the footer */
     background: var(--background-secondary);
     opacity: 80%;
-    backdrop-filter: blur(5);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
  }
 
  #bgsrc {
@@ -207,6 +209,7 @@ footer {
     font-size: 2rem;
     opacity: 80%;
     backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
 }
 
 #dropdown-nav ul {
