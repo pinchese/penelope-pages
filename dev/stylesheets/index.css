@@ -257,6 +257,10 @@ footer {
         float: left;
     }
 
+    #greeting {
+        margin-top: 15vh;
+    }
+
     #dropbtn {
         float: right;
         background-color: var(--background-tertiary);
