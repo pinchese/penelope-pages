@@ -30,8 +30,8 @@ header {
     overflow: hidden;
     background-color: var(--background-secondary);
     opacity: 80%;
-    backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
 }
 
 /* #header-buttons {
@@ -174,11 +174,11 @@ footer {
     position:absolute;
     bottom:0;
     width:100%;
-    height:25px;   /* Height of the footer */
+    height:25px;
     background: var(--background-secondary);
     opacity: 80%;
-    backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
  }
 
  #bgsrc {
@@ -208,8 +208,8 @@ footer {
     letter-spacing: 1rem;
     font-size: 2rem;
     opacity: 80%;
-    backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
 }
 
 #dropdown-nav ul {
