@@ -3,8 +3,11 @@
     --hot-pink: #dc1467;
     --deep-purple: #500050;
     --background-tertiary: #6d0b39;
+    --background-tertiary-trans: #6d0b3990;
     --background-secondary: #50082a;
+    --background-secondary-trans: #50082a90;
     --background-primary: #180213;
+    --background-primary-trans: #18021390;
     --transition-speed: 0.5s;
 }
 
@@ -28,10 +31,9 @@ body {
 
 header {
     overflow: hidden;
-    background-color: var(--background-secondary);
-    opacity: 80%;
-    -webkit-backdrop-filter: blur(5px);
-    backdrop-filter: blur(5px);
+    background-color: var(--background-secondary-trans);
+    -webkit-backdrop-filter: blur(1rem);
+    backdrop-filter: blur(1rem);
 }
 
 /* #header-buttons {
@@ -171,18 +173,16 @@ header ul li {
 }
 
 footer {
+    backdrop-filter: blur(1rem);
     position:absolute;
     bottom:0;
     width:100%;
     height:25px;
     background: var(--background-secondary);
-    opacity: 80%;
-    -webkit-backdrop-filter: blur(5px);
-    backdrop-filter: blur(5px);
  }
 
  #bgsrc {
-     text-align: right;
+     text-align: center;
      padding-top: 4px;
      padding-right: 6px;
  }
@@ -207,9 +207,8 @@ footer {
     width: 100vw;
     letter-spacing: 1rem;
     font-size: 2rem;
-    opacity: 80%;
-    -webkit-backdrop-filter: blur(5px);
-    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(1rem);
+    backdrop-filter: blur(1rem);
 }
 
 #dropdown-nav ul {
@@ -219,12 +218,12 @@ footer {
 
 #dropdown-nav ul li {
     padding: 1rem;
-    background-color: var(--background-tertiary);
+    background-color: var(--background-tertiary-trans);
     transition: var(--transition-speed);
 }
 
 #dropdown-nav ul li:nth-child(even) {
-    background-color: var(--background-secondary);
+    background-color: var(--background-secondary-trans);
 }
 
 #dropdown-nav ul li:hover {
@@ -263,7 +262,7 @@ footer {
 
     #dropbtn {
         float: right;
-        background-color: var(--background-tertiary);
+        background-color: var(--background-tertiary-trans);
         border: none;
         color: var(--hot-pink);
         padding: 1px 64px;
@@ -279,7 +278,7 @@ footer {
     }
 
     #dropbtn:active {
-        background-color: var(--background-secondary);
+        background-color: var(--background-secondary-trans);
         color: var(--hot-pink);
         transition: 0;
     }
