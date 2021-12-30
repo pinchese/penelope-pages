@@ -36,35 +36,6 @@ header {
     backdrop-filter: blur(1rem);
 }
 
-/* #header-buttons {
-    text-align: center;
-    display: flex;
-}
-
-#name-and-nav {
-    display: flex;
-}
-
-#username {
-    margin: 0;
-}
-
-header ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: inline-flex;
-}
-
-header ul li {
-    margin-right: 16px;
-}
-
-.social {
-    width: 24px;
-    height: 24px;
-} */
-
 #header-content {
     font-size: 1.5rem;
     color: var(--hot-pink);
