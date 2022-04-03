@@ -11,7 +11,7 @@
     background-color: var(--deep-purple);
 }
 
-body {
+/* body {
     background-color: var(--background-primary);
     color: var(--hot-pink);
     text-align: center;
@@ -42,7 +42,7 @@ a:hover {
 
 #title {
     font-size: 6rem;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 #subtitle {
@@ -51,6 +51,50 @@ a:hover {
 
 #names {
     font-size: 2rem;
+}
+
+#names span {
+    font-size: 1rem;
+} */
+
+body {
+    background-color: var(--background-primary);
+    color: var(--hot-pink);
+    text-align: center;
+    margin: 0;
+}
+
+#return-btn {
+    margin: auto;
+    margin-top: 5rem;
+}
+
+#return-btn a {
+    color: var(--hot-pink);
+    background-color: var(--background-secondary);
+    text-decoration: none;
+    transition: var(--transition-speed);
+    font-size: 2rem;
+}
+
+#return-btn a:hover {
+    color:var(--deep-purple);
+    background-color: var(--hot-pink);
+}
+
+#title {
+    font-size: 6rem;
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 0;
+}
+
+#subtitle {
+    font-size: 1rem;
+}
+
+#names {
+    font-size: 3rem;
 }
 
 #names span {
