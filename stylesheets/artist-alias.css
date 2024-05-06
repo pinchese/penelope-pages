@@ -1,0 +1,119 @@
+:root {
+    font-family: monospace;
+    --hot-pink: #dc1467;
+    --deep-purple: #500050;
+    --background-tertiary: #6d0b39;
+    --background-tertiary-trans: #6d0b3990;
+    --background-secondary: #50082a;
+    --background-secondary-trans: #50082a90;
+    --background-primary: #180213;
+    --background-primary-trans: #18021390;
+    --transition-speed: 0.5s;
+}
+
+::selection {
+    background-color: var(--deep-purple);
+}
+
+body {
+    background-color: var(--background-primary);
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    text-align: center;
+}
+
+#return-btn {
+    margin-top: 31px;
+}
+
+#return-btn a {
+    color: var(--hot-pink);
+    background-color: var(--background-secondary);
+    text-decoration: none;
+    transition: var(--transition-speed);
+    font-size: 2rem;
+    
+}
+
+#return-btn a:hover {
+    color:var(--deep-purple);
+    background-color: var(--hot-pink);
+}
+
+#flexwrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh
+}
+
+#cards {
+    display: flex;
+    gap: 80px;
+    margin-bottom: 62px;
+}
+
+.card {
+    background-color: #00000000;
+    height: 260px;
+    width: 300px;
+    transition: var(--transition-speed);
+}
+
+#mainpage {
+    float: left;
+}
+
+.card-alias {
+    font-size: 3rem;
+    line-height: 260px;
+}
+
+.card-alias a {
+    color: var(--hot-pink);
+    background-color: var(--background-secondary);
+    text-decoration: none;
+    transition: var(--transition-speed);    
+}
+
+.card-alias a:hover {
+    color:var(--deep-purple);
+    background-color: var(--hot-pink);
+}
+
+.description {
+    font-size: 2rem;
+    margin: 32px 0 0 0;
+    color: var(--hot-pink);
+}
+
+.cardcontainer {
+    width: 100%;
+    height: 100%;
+}
+
+#nezulie-card > .cardcontainer {
+    background-color: var(--background-secondary);
+    background-image: url(https://f4.bcbits.com/img/0035554175_20.jpg);
+    background-size: cover;
+    background-blend-mode: luminosity;
+    transition-duration: var(--transition-speed);
+}
+
+#swmi-card > .cardcontainer {
+    background-color: var(--background-secondary);
+    background-image: url(https://f4.bcbits.com/img/0035521680_20.jpg);
+    background-size: cover;
+    background-blend-mode: luminosity;
+    transition-duration: var(--transition-speed);
+}
+
+#swmi-card > .cardcontainer:hover {
+    transform: translateY(-.5rem);
+}
+
+#nezulie-card > .cardcontainer:hover {
+    transform: translateY(-.5rem);
+}
